@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey | Calamba Laguna</title>
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:image" content="img/articleimg/survey_mayorcalamba.jpg">
+</head>
+<script>
+    // Disable Right Click
+    document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+    });
+
+    // Disable Ctrl+S and other key combinations
+    document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && (e.key === 's' || e.key === 'u' || e.key === 'Shift')) {
+                e.preventDefault();
+            }
+        });
+
+    // Disable Specific Keyboard Shortcuts
+    document.addEventListener('keydown', function (e) {
+        // F12 (Open Developer Tools)
+        if (e.key === 'F12') {
+            e.preventDefault();
+        }
+        // Ctrl+Shift+I (Open Developer Tools)
+        if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+            e.preventDefault();
+        }
+        // Ctrl+Shift+J (Open Console)
+        if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+            e.preventDefault();
+        }
+        // Ctrl+U (View Page Source)
+        if (e.ctrlKey && e.key === 'u') {
+            e.preventDefault();
+        }
+        // Ctrl+Shift+C (Inspect Element)
+        if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+            e.preventDefault();
+        }
+    });
+</script>
+<body>
+    <!-- HEADER-->
+    <div class="header-container">
+        <div class="header-img">
+            <a href="https://radyopilipinas.ph/">
+            <img src="img/logos/logo.png"  alt="Radyo Pilipinas" class="img-fluid logo">
+        </a>
+        </div>
+        <div class="main-navbar">
+            <a href="https://radyopilipinas.ph">Home</a>
+            <a href="https://radyopilipinas.ph/national/">National</a>
+            <a href="https://radyopilipinas.ph/regional/">Regional</a>
+            <a href="https://radyopilipinas.ph/business/">Business</a>
+            <a href="https://radyopilipinas.ph/police/">Police</a>
+        </div>
+        <div class="burger">
+           
+            <img src="img/logos/charm--menu-hamburger.svg" alt="burger-nav" class="burger-img" onclick="toggleMenu()">
+        </div>
+    </div>
+
+    <div class="dropdown" id="dropdown-menu">
+        <div class="close-btn" onclick="toggleMenu()"></div>
+        <!-- OVERLAY MAIN MENU BAR-->
+        <div class="pop-up-menu">
+            <div class="burger-navbar">
+                <a href="https://radyopilipinas.ph">HOME</a>
+                <a href="https://radyopilipinas.ph/national/">NATIONAL</a>
+                <a href="https://radyopilipinas.ph/regional/">REGIONAL</a>
+                <a href="https://radyopilipinas.ph/business/">BUSINESS</a>
+                <a href="https://radyopilipinas.ph/police/">POLICE</a>
+            </div>
+        </div> 
+    </div>
+    <!-- MAIN CONTAINER INCLUDING ITS CONTENT-->
+    <div class="maincontainer">
+        <div class="article-container">
+            <!-- CATEGORY AND HEADLINE-->
+            <div class="category">Politics</div>
+            <h1 class="headline">DUGONG BAYANI MAYOR ROSS RIZAL, PATULOY NA NANGUNGUNA SA SURVEY LABAN KAY EX-MAYOR TIMMY CHIPECO</h1>
+            <div class="date">
+                <span><img src="img/logos/lets-icons--date-fill.svg" alt=""></span>
+                <span>November 04, 2024</span>
+                <span style="margin-left: 10px;"><img src="img/logos/mingcute--time-fill.svg" alt=""> 10:15 am</span>
+            </div>
+            <!-- SOCIAL BUTTONS LIKE FB,TWITTER, AND LINKEDIN-->
+            <div class="social-buttons">
+                <a href="https://www.facebook.com/radyopilipinas1?_rdc=1&_rdr" class="button">
+                    <img src="img/logos/ic--baseline-facebook.svg" alt="">Facebook
+                </a>
+                <a href="https://x.com/intent/post?text=+https%3A%2F%2Fradyopilipinas.ph%2F2023%2F10%2Fqc-mayor-belmonte-at-malabon-mayor-sandoval-kapwa-nanguna-sa-top-performing-ncr-mayors-ng-rpmd-survey%2F" class="button">
+                    <img src="img/logos/mdi--twitter.svg" alt=""> Twitter
+                </a>
+                <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fradyopilipinas.ph%2F2023%2F10%2Fqc-mayor-belmonte-at-malabon-mayor-sandoval-kapwa-nanguna-sa-top-performing-ncr-mayors-ng-rpmd-survey%2F%26title%3DQC%2520Mayor%2520Belmonte%2520at%2520Malabon%2520Mayor%2520Sandoval%252C%2520kapwa%2520nanguna%2520sa%2520%2527Top%2520performing%2520NCR%2520Mayors%2527%2520ng%2520RPMD%2520survey%2520-%2520Radyo%2520Pilipinas%26summary%3D%26source%3Dhttps%3A%2F%2Fradyopilipinas.ph%2F2023%2F10%2Fqc-mayor-belmonte-at-malabon-mayor-sandoval-kapwa-nanguna-sa-top-performing-ncr-mayors-ng-rpmd-survey%2F" class="button">
+                    <img src="img/logos/mdi--linkedin.svg" alt=""> LinkedIn
+                </a>
+            </div>
+        </div>
+        <!-- IMG AND WHOLE CONTENT-->
+        <div class="sub-container">
+            <div class="image-container">
+                <img src="img/articleimg/survey_mayorcalamba.jpg" alt="">
+                <div class="content">
+                    <p>Patuloy na namamayagpag si Mayor Ross Rizal sa pinakabagong survey na isinagawa sa Calamba, kung saan 45% ng 2,000 Calambeño ang nagpahayag ng kanilang suporta para sa kasalukuyang alkalde. Sa kabilang banda, si Ex-Mayor Timmy Chipeco, ang mahigpit na katunggali ni Rizal, ay nakakuha ng 39% na suporta. Bagamat may kalamangan si Rizal, lumalabas sa survey na may humigit-kumulang 15% ng mga botante ang nananatiling undecided o hindi pa sigurado kung sino ang kanilang pipiliin.</p> <br>
+
+                    <p>Ang naturang survey ay isinagawa noong huling linggo ng Oktubre, tatlong linggo matapos maghain ng kani-kanilang Certificate of Candidacy (COC) para sa darating na eleksyon. Ayon sa mga tagasuri, malaki ang magiging papel ng undecided voters sa magiging resulta ng halalan, lalo na’t patuloy ang paghahabol ni Chipeco sa suporta ng mga taga-Calamba.</p> <br>
+
+                    <p>Sa gitna ng kampanya, lumutang ang usapin ng serbisyong medikal bilang isa sa mga pangunahing isyu na tinatalakay sa mga komunidad. Maraming residente ang nagpahayag na mas agarang pagbibigay ng medical assistance noong panahon ng administrasyon ni Chipeco, kung saan ang tulong pinansyal ay agad na natatanggap ng mga nangangailangan. Sa kasalukuyang administrasyon ni Rizal, inaabot ng isang buwan o higit pa bago maiproseso ang parehong tulong, dahilan upang ikumpara ng ilan ang pamamalakad ng dalawang lider.</p> <br>
+
+                    <p>Ang resulta ng survey ay nagpapakita ng patuloy na mahigpit na kompetisyon sa pagitan ng dalawang dating magkakampi sa pulitika. Sa kabila ng kalamangan ni Rizal, inaasahang magpapatuloy ang masinsinang laban sa mga susunod na buwan, habang parehong kampo ang nagsusumikap na makuha ang tiwala ng mga undecided voters.</p> <br>
+                    
+                    <p>Habang papalapit ang araw ng eleksyon, inaasahang magiging mas matindi pa ang labanan. Ang desisyon ng mga botante, partikular na ang mga hindi pa sigurado, ang magiging susi sa kung sino ang magwawagi sa halalan. Sa huli, ang labanang ito ay hindi lamang tungkol sa kung sino ang mamumuno kundi sa direksyon na tatahakin ng Calamba sa mga susunod na taon.</p> <br>
+                    
+
+                    
+                    
+                </div>
+                <br>
+            </div>
+            <!-- INNER RIGHT SIDEBAR-->
+            <div class="right-container">
+                <!-- Search Bar -->
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button><img src="img/logos/uil--search.svg" alt=""></button>
+                </div>
+        
+                <!-- Radyo Pilipinas Section -->
+                <div class="radyo-pilipinas">
+                    <h2 class="section-title">Radyo Pilipinas</h2>
+                    <p class="description">
+                        Radyo Pilipinas is the flagship government AM radio station of the Philippine Broadcasting Service (PBS), 
+                        which is under the Presidential Communications Operations Office (PCOO) of the Office of the President, 
+                        Republic of the Philippines. Its frequency is 738khz on the Philippine AM band.
+                    </p>
+        
+                    <!-- Social Media Icons -->
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/radyopilipinas1?_rdc=1&_rdr" class="facebook"><img src="img/logos/ic--baseline-facebook.svg" alt=""></a>
+                        <a href="https://x.com/radyopilipinas1" class="twitter"><img src="img/logos/mdi--twitter.svg" alt=""></a>
+                        <a href="https://www.youtube.com/@radyopilipinas1" class="youtube"><img src="img/logos/mdi--youtube.svg" alt=""></a>
+                    </div>
+                </div>
+        
+                <!-- Recent Posts Section -->
+                <div class="recent-posts">
+                    <h2 class="section-title">Recent Posts</h2>
+                    <a href="https://radyopilipinas.ph/2024/11/pilipinas-at-australia-binigyang-diin-ang-kahalagahan-ng-defense-cooperation-sa-isinagawang-defence-ministers-meeting-sa-canberra-australia/">
+                        <div class="post">
+                            <img src="img/articleimg/recent1.jpg" alt="Post Image">
+                            <div class="post-info">
+                                <p>Pilipinas at Australia, binigyang-diin ang kahalagahan ng defense cooperation sa isinagawang Defence Ministers Meeting sa Canberra, Australia</p>
+                                <p class="read-more">Read More »</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://radyopilipinas.ph/2024/11/dating-sen-de-lima-pumalag-sa-naging-bansag-sa-kaniya-bilang-mother-of-all-drug-lords/">
+                        <div class="post">
+                            <img src="img/articleimg/recent2.jpg" alt="Post Image">
+                            <div class="post-info">
+                                <p>Dating Sen. De Lima, pumalag sa naging bansag sa kaniya bilang ‘Mother of All Drug Lords’</p>
+                                <p class="read-more">Read More »</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://radyopilipinas.ph/2024/11/posibilidad-ng-pagpapakawala-ng-tubig-sa-ilan-pang-dam-ibinabala-ng-pagasa-dahil-paparating-na-bagyong-pepitoph/">
+                        <div class="post">
+                            <img src="img/articleimg/recent3.png" alt="Post Image">
+                            <div class="post-info">
+                                <p>Posibilidad ng pagpapakawala ng tubig sa ilan pang dam, ibinabala ng PAGASA dahil paparating na bagyong #PepitoPH</p>
+                                <p class="read-more">Read More »</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
